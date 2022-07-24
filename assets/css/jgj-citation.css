@@ -1,0 +1,10 @@
+.citation_container{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+#poststuff .jgj_postbox_h2{
+   padding: 0px;
+   margin-bottom: 1rem;
+   font-style: italic;
+}

@@ -4,10 +4,10 @@
  * Fired when the plugin is uninstalled.
  *
  *
- * @link       http://www.example.com
+ * @link       http://juangiovannijohn.com
  * @since      0.0.1
  *
- * @package    Plugin_Name
+ * @package    JGJ_Citation
  */
 
 // If uninstall not called from WordPress, then exit.

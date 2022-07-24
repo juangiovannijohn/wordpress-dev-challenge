@@ -5,6 +5,27 @@
 </p>
 <br />
 
+# Use of the Plugin
+Plugin created to add author quotes to an entry (POST). It only works with tickets.
+Content must be added inside the metabox called "JGJ Citation", it must be taken into account that the content is in HTML format.
+The content is displayed on the screen wrapped by a <div>
+To display the content on the screen, a SHORTCODE must be used.
+The shortcode has the following syntax ['jgj_citation post_id="" '];
+The post_id attribute is optional, if it is not given a value, it shows by default the content of the current post. The content of another post can be displayed on the screen by inserting the ID of the post to be displayed in the attribute.
+The shortcode can be used on all web pages.
+
+## Examples
+* Show citation content of current post <br>
+  ['jgj_citation']
+
+* Show post content with ID = 2 <br>
+  ['jgj_citation post_id=2'] or,<br>
+  ['jgj_citation post_id='2''] or,<br>
+  ['jgj_citation post_id="2"']
+
+
+<hr>
+
 ## Descripción
 **WordPress Challenge** es una prueba de admisión para desarrolladoresespecializados en WordPress (HTML, CSS, JavaScript y PHP).
 
